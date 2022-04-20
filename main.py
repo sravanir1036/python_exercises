@@ -22,7 +22,7 @@ def round_trip(x, y):
     root[0][2][0].text = new_depart_date.strftime("%Y%m%d")
     root[0][2][1].text = new_return_date.strftime("%Y%m%d")
 
-    tree.write("output.xml")
+    tree.write("xmlfiles/output.xml")
 
 
 def remove_json_element(element):
